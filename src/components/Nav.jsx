@@ -1,5 +1,5 @@
 import React from "react";
-import "./Nav.css";
+
 const Nav = () => {
   return (
     <div className=" fixed z-[999] w-full px-14 py-4 font-['Neu'] flex justify-between items-center">

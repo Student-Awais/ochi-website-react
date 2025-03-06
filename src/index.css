@@ -1,3 +1,11 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@font-face {
+  font-family: "Found";
+  src: url(/FoundersGrotesk-Semibold.ttf);
+}
+@font-face {
+  font-family: "Neu";
+  src: url(/NeueMontreal-Regular.ttf);
+}
