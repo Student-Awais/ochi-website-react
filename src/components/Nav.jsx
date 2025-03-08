@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className=" fixed z-[999] w-full px-14 py-4 font-['Neu'] flex justify-between items-center">
+    <div className=" fixed z-[999] w-full px-14 py-4 font-['Neu'] flex justify-between items-center ">
       <div className="logo">
         <svg
           width="72"
@@ -38,7 +38,7 @@ const Nav = () => {
           (item, index) => (
             <a
               className={`text-[14px] capitalize font-light ${
-                index === 4 && "ml-52"
+                index === 4 ? "ml-52" : ""
               }`}
               key={index}
             >
