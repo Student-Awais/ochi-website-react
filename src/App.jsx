@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 import LandingPage from "./components/LandingPage";
 import Marqueee from "./components/Marqueee";
 import About from "./components/About";
-import Animate from "./components/Animate";
+import EyeAnimate from "./components/EyeAnimate";
 const App = () => {
   return (
     <div className="w-full min-h-screen  text-slate-200 bg-zinc-900">
@@ -11,7 +11,7 @@ const App = () => {
       <LandingPage />
       <Marqueee />
       <About />
-      <Animate />
+      <EyeAnimate />
     </div>
   );
 };

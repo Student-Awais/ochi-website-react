@@ -9,7 +9,13 @@ const LandingPage = () => {
           <div key={index} className="masker font-['Found'] px-14 ">
             <div className="w-fit flex items-end overflow-hidden gap-[5.5px]">
               {index === 1 ? (
-                <div className="w-32 h-[88px] relative top-[7px] rounded-sm bg-slate-200 mr-2"></div>
+                <div className="w-32 h-[88px] relative top-[7px]  mr-2">
+                  <img
+                    className="object-cover rounded-lg"
+                    src="../../public/content-image01.jpg"
+                    alt=""
+                  />
+                </div>
               ) : null}
               <h1 className="uppercase text-9xl leading-[0.75]">{items}</h1>
             </div>

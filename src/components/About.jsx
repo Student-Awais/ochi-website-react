@@ -12,7 +12,7 @@ const About = () => {
         , and
         <span className="underline"> hire great peo­ple</span>.
       </h1>
-      <div className="border-t-[1.5px] border-[#c3d875] flex h-[30vw] mb-10  ">
+      <div className="border-t-[1.7px] border-[#c3d875] flex h-[30vw] mb-10  ">
         <div className="w-[50%]  ">
           <p className="px-14 py-4">What you can expect:</p>
         </div>
@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="border-t-[1.5px] border-[#c3d875] w-full  h-[36vw] flex   ">
+      <div className="border-t-[1.7px] border-[#c3d875] w-full  h-[36vw] flex   ">
         <div className="w-1/2 px-12">
           <h1 className="text-[4.5vw]">Our approach:</h1>
           <button className="px-6 py-3 gap-5 uppercase bg-slate-800 rounded-full flex items-center justify-between text-white">
@@ -56,7 +56,7 @@ const About = () => {
         <div className="w-1/2 h-[70vh]  relative top-4 right-10">
           <img
             className="rounded-xl"
-            src="../../public/Homepage-Photo-1326x939.jpg "
+            src="/Homepage-Photo-1326x939.jpg "
             alt=""
           />
         </div>
